@@ -1,0 +1,47 @@
+{
+  "name": "generator-scotchmean",
+  "version": "0.0.0",
+  "description": "Template project based in scotchmean",
+  "homepage": "https://scotch.io/tutorials/create-a-custom-yeoman-generator-in-4-easy-steps",
+  "author": {
+    "name": "Gilson Filho",
+    "email": "me@gilsondev.in",
+    "url": "http://gilsondev.in"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman",
+    "generator",
+    "mean",
+    "nodejs",
+    "angularjs"
+  ],
+  "devDependencies": {
+    "eslint": "^2.1.0",
+    "eslint-config-xo-space": "^0.10.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "gilsondev/generator-scotchmean",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
